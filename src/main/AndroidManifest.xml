@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prakash.conservewater">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="HOME" />
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".DetailsActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".IdeasActivity" />
+        <activity android:name=".CompaignActivity" />
+        <activity android:name=".ProblemsActivity" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="CONTACT INFORMATION" />
+        <activity android:name=".FormActivity" />
+        <activity android:name=".AllIdeasActivity" />
+        <activity android:name=".ProblempageActivity" />
+        <activity android:name=".ForumActivity" />
+        <activity android:name=".WatchcompaignActivity" />
+        <activity android:name=".HeldCompaignActivity" />
+        <activity android:name=".TermsActivity" />
+        <activity android:name=".FacebookActivity" />
+        <activity android:name=".InstaActivity" />
+        <activity android:name=".GoogleFormActivity" />
+        <activity android:name=".TwitterActivity"></activity>
+    </application>
+
+</manifest>

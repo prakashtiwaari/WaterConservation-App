@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB2A3C"
+    tools:context="com.example.prakash.conservewater.IdeasActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SUBMIT YOUR IDEA"
+        android:id="@+id/submitbutton"
+        android:background="#009900"
+        android:layout_marginTop="124dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="SEE IDEAS"
+        android:id="@+id/seeideabutton"
+        android:background="#009900"
+        android:layout_below="@+id/submitbutton"
+        android:layout_alignLeft="@+id/submitbutton"
+        android:layout_alignStart="@+id/submitbutton"
+        android:layout_marginTop="40dp" />
+</RelativeLayout>

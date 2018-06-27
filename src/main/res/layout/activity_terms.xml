@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.prakash.conservewater.TermsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TERMS AND CONDITIONS"
+        android:gravity="center"
+        android:background="#cc0000"
+        android:textColor="#000000"
+        android:id="@+id/trmstxtid" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="Followings are some terms and conditions for getting fund for your Compaign:\n \n # Send details to owner about compaign(what exactly are you trying to accomplish) by clicking on 'HELD COMPAIGN' menu.\n # send your Name, contact number,Your permanent home address with proof (i.e. Aadhar card,PAN card ),Email address,profession ,compaign amount and location where you are helding the compaign and the duration. \n . # Post Compaign activity- You have to submit the proofs of your compaign about what have you done.\n # For sending #2 mentioned detail click on 'CONTACT' menu.\n "
+        android:id="@+id/detailsid" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="#cc0000"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:text="YOUR CONTRIBUTIONS WILL \n BE \n HIGHLY APPRECIATED"
+        android:id="@+id/thanksid"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

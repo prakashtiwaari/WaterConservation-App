@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="#BB2A3C"
+    tools:context="com.example.prakash.conservewater.CompaignActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SEE COMPAIGNS"
+        android:id="@+id/compaignid"
+        android:background="#009900"
+        android:layout_marginTop="124dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="HELD YOUR COMPAIGN"
+        android:id="@+id/heldcopmaignid"
+        android:background="#009900"
+        android:layout_below="@+id/compaignid"
+        android:layout_alignLeft="@+id/compaignid"
+        android:layout_alignStart="@+id/compaignid"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Must Read ,if you are helding compaign!"
+        android:id="@+id/termsid"
+        android:background="#b3b3b3"
+        android:layout_below="@+id/heldcopmaignid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+</RelativeLayout>
